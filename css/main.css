@@ -4,6 +4,9 @@
     font-weight: 400;
     font-style: normal;
 }
+div.fp-watermark {
+    display: none;
+}
 *{
     padding: 0;
     margin: 0;
@@ -212,7 +215,7 @@ section{
       ),url(../images/coding2.jfif);
 }
 .about_scroll{
-    margin-top: 160px;
+    margin-top: 60px;
 }
 .scroll{
     position: relative;
@@ -223,21 +226,21 @@ section{
 
 }
 .about_div{
-    margin-top: 150px;
+    margin-top: 100px;
     float: left;
     width: 1000px;
-    height: 800px;
+    height: 600px;
 }
 .About_Me{
     position: relative;
-    left: 35%;
-    width: 350px;
-    height: 100px;
+    left: 20%;
+    width: 170px;
+    height: 70px;
     background-color: #242c35;
     border: solid 3px;
     border-color: #12F7D6;
-    border-radius: 50px 0px 50px 0px / 50px 0px 50px 0px;
-    font-size: 55px;
+    border-radius: 30px 0px 30px 0px / 30px 0px 30px 0px;
+    font-size: 30px;
     color: white;
     display: flex;
     justify-content: center;
@@ -246,11 +249,11 @@ section{
 .explain{
     margin-top: 20px;
     position: relative;
-    left: 35%;
-    width: 1000px;
+    left: 20%;
+    width: 800px;
     height: 400px;
     background-color: #242c35;
-    font-size: 22px;
+    font-size: 15px;
     color: white;
     line-height: 35px;
     border-radius: 30px;
@@ -264,7 +267,7 @@ section{
     margin-left: 15px;
     padding-top: 20px;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: 30px;
     color: #12F7D6;
 }
 .explain span{
@@ -274,13 +277,13 @@ section{
     width: 400px;
     height: 550px;
     float: right;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .about_img{
     position: relative;
-    left: -120%;
-    width: 400px;
-    height: 550px;
+    left: -100%;
+    width: 350px;
+    height: 500px;
     background-image: url(../images/coding.webp);
     background-size: cover;
     background-position: -300px 0px;
