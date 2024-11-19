@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullpage.js/dist/fullpage.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="css/magnific-popup.css">
 </head>
 <body>
     <div id="fullpage">
@@ -92,16 +94,18 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src="images/Card1.png">
+                            <a href="subpages\G마켓\main.html">
+                            <img src="images/_Card1.png">
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/Card1.png">
+                            <img src="images/_Card1.png">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/Card1.png">
+                            <img src="images/_Card1.png">
                         </div>
                         <div class="swiper-slide">
-                            <img src="images/Card1.png">
+                            <img src="images/_Card1.png">
                         </div>  
                     </div>
                     <!-- If we need navigation buttons -->
@@ -141,6 +145,7 @@
         </div>
     </div>
     <script src="js/script.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
     <script>
     const swiper = new Swiper('.swiper', {
         // Optional parameters
@@ -162,6 +167,9 @@
             el: '.swiper-scrollbar',
         },
     });
+    $(document).on("click", ".tlink", function(e){
+});
     </script>
+    
 </body>
 </html>
